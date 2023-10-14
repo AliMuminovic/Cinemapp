@@ -1,0 +1,11 @@
+<form (ngSubmit)="SaveChanges()" [formGroup]="form">
+  <mat-form-field appearance="outline">
+    <mat-label>Naziv</mat-label>
+    <input formControlName="naziv" matInput titlecase/>
+    <mat-error *ngIf="form.invalid">{{getErrorMessageFieldName()}}</mat-error>
+  </mat-form-field>
+  <div style="margin-top: 8px">
+    <button mat-flat-button color="primary" [disabled]="form.invalid">Snimi</button>
+    <a mat-flat-button color="warn" routerLink="/zanr">Otkazi</a>
+  </div>
+</form>

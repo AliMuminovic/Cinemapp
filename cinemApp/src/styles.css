@@ -1,0 +1,106 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+
+/*html, body { height: 100%; }*/
+body { 
+  margin: 0; 
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+  background-image: url('../src/public/image/imageedit_1_2276379269.png');
+  width: 100%;
+  overflow-x: hidden;
+
+}
+html{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body::after{
+  opacity: 0.5;
+}
+
+
+
+h2{
+  text-transform: uppercase;
+  font-family: Poppins;
+
+}
+
+.mat-form-field-appearance-outline .mat-form-field-flex{
+  border: 1px solid black;
+}
+
+.mat-checkbox-layout .mat-checkbox-label{
+  color: black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.mat-checkbox-inner-container{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.mat-flat-button.mat-warn{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.mat-flat-button.mat-primary.mat-button-disabled{
+  background-color: gray;
+}
+
+.mat-stroked-button{
+  justify-content: center;
+  align-items: center;
+}
+
+th.mat-header-cell:first-of-type, td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type{
+  color: black;
+  font-weight: bolder;
+}
+
+th.mat-header-cell:last-of-type{
+  color: black;
+  font-weight: bolder;
+
+}
+
+.mat-progress-spinner circle, .mat-spinner circle{
+  color: black;
+}
+
+th.mat-header-cell, td.mat-cell, td.mat-footer-cell{
+  text-align: center;
+}
+
+th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+  text-align: center;
+}
+
+th.mat-header-cell:first-of-type{
+  text-align: center;
+}
+th.mat-header-cell:last-of-type{
+  text-align: center;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex{
+}
+
+
+.cdk-text-field-autofill-monitored:not(:-webkit-autofill) {
+  color: black;
+}
+
+ul, li{
+  color: black;
+}
+
+.mat-stroked-button:not(.mat-button-disabled) {
+  margin-left: 15px;
+}
+

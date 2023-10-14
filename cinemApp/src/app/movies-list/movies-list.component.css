@@ -1,0 +1,58 @@
+.movie-container{
+  margin-right: 2%;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+
+}
+
+.movies-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  top: 0;
+  padding: 0;
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+
+}
+
+h1{
+  max-width: 225px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+img{
+  width: 170px;
+  min-height: 300px;
+}
+
+img:hover{
+  width: 180px;
+}
+
+.mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary{
+  margin-right: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+a:hover{
+  opacity: 0.8;
+} 
+
+@media screen and (max-width: 1234){
+  .movies-container{
+    display: none;
+  
+  }
+}

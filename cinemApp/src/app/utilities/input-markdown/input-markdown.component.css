@@ -1,0 +1,15 @@
+mat-form-field{
+  width: 100%;
+}
+textarea{
+  height: 300px;
+}
+
+*{
+  color: black;
+}
+
+.mat-tab-label .mat-tab-label-content{
+  color: black;
+}
+

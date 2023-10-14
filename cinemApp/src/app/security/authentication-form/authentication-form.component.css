@@ -1,0 +1,81 @@
+form{
+    max-width: 500px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    align-items: center;
+}
+
+.mat-form-field{
+    width: 100%;
+}
+
+
+
+button{
+    margin-right: 1rem;
+}
+
+h2{
+    text-align: center;
+    color: black;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+}
+
+
+.mat-flat-button:hover{
+    opacity: 0.9;
+}
+
+.mat-error{
+    font-size: 10px;
+    font-weight: bolder;
+
+}
+
+@media screen and (max-width: 414px){
+    form{
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    form{
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    form{
+        justify-content: center;
+    }
+    .mat-form-field{
+        display: block;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 940px){
+    form{
+        justify-content: center;
+    }
+    .mat-form-field{
+        display: block;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    form{
+        justify-content: center;
+    }
+    .mat-form-field{
+        display: block;
+        width: 100%;
+    }
+
+}
